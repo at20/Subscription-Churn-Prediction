@@ -23,7 +23,7 @@ The results identified four primary features:
 | Monthly fee | 0.0000 |
 | Plan type (Premium) | 0.0000 |
 
-![Gradient Boosting Feature Importance](visualizations/gradient_boosting_importance.png)
+![Gradient Boosting Feature Importance]("D:\GitHub\visualizations\gradient_boosting_importance.png")
 
 Payment failures represented the largest share of built-in feature importance, followed by days since last login and average weekly usage hours. Together, these four primary features accounted for approximately 99.6% of the model's total feature importance.
 
