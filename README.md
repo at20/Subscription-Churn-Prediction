@@ -23,8 +23,6 @@ The results identified four primary features:
 | Monthly fee | 0.0000 |
 | Plan type (Premium) | 0.0000 |
 
-![Gradient Boosting Feature Importance]("D:\GitHub\visualizations\gradient_boosting_importance.png")
-
 Payment failures represented the largest share of built-in feature importance, followed by days since last login and average weekly usage hours. Together, these four primary features accounted for approximately 99.6% of the model's total feature importance.
 
 These results suggest that payment-related difficulties, customer engagement, and support activity are the primary factors the model uses when distinguishing between churned and retained customers.
@@ -65,10 +63,6 @@ The SHAP summary (beeswarm) plot provided additional insight into the relationsh
 - **Days since last login:** Higher values generally increased churn predictions, suggesting that customers who had not logged in recently were more likely to be classified as churn risks.
 - **Average weekly usage hours:** Lower usage values generally pushed predictions toward the churn class, while higher usage values generally pushed predictions toward the retained class.
 - **Support tickets:** Higher support ticket counts generally pushed predictions toward the churn class, indicating that customers with more support interactions were more likely to receive higher churn predictions.
-
-![SHAP Feature Importance](visualizations/shap_feature_importance.png)
-
-![SHAP Summary Plot](visualizations/shap_summary.png)
 
 The remaining features, including tenure, plan type, and monthly fee, demonstrated comparatively limited influence on the model's predictions.
 
